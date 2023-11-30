@@ -1,0 +1,100 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.direction-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    margin-top: 30px;
+}
+
+.quem{
+    color: white;
+    font-size: 32px;
+}
+
+.conteudo-principal{
+    height: 70vh;
+}
+
+.nav-perfis{
+    width: 700px;
+}
+
+.img{
+    width: 160px;
+    height: 160px;
+    border-radius: 6px;
+    background-color: #0f0f0f;
+    border: 3px solid transparent;
+    cursor: pointer;
+}
+
+.img:hover{
+    border: 3px solid #fff;
+    opacity: 1;
+    background-color: #222121;
+}
+
+.img-avatar{
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+}
+
+.nome{
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.perfil:hover .img{
+    border: 3px solid #fff;
+    opacity: 1;
+    background-color: #222121;
+}
+
+.perfil:hover p{
+    opacity: 1;
+}
+
+.img-add{
+    opacity: 0.4;
+}
+
+.perfil:hover .img-add{
+    opacity: 1;
+}
+
+.img:hover .img-add{
+    opacity: 1;
+}
+
+.gerenciar-perfis{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.gerenciar-perfis:hover{
+    background-color: #fff;
+    color: black;
+}
